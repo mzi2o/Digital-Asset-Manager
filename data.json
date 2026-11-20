@@ -1,0 +1,556 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "IT",
+      "isITDepartment": true
+    },
+    {
+      "id": 2,
+      "name": "Administration",
+      "isITDepartment": false
+    },
+    {
+      "id": 3,
+      "name": "Magasin",
+      "isITDepartment": false
+    },
+    {
+      "id": 4,
+      "name": "Qualité",
+      "isITDepartment": false
+    },
+    {
+      "id": 5,
+      "name": "Labo",
+      "isITDepartment": false
+    },
+    {
+      "id": 6,
+      "name": "Datos",
+      "isITDepartment": false
+    },
+    {
+      "id": 7,
+      "name": "Cadenas",
+      "isITDepartment": false
+    }
+  ],
+  "enterprises": [],
+  "productionUnits": [],
+  "products": [
+    {
+      "id": 4,
+      "sku": "SW-CISCO-24P",
+      "supplierBarcode": null,
+      "manufacturerItemName": "Cisco Switch 24 Port",
+      "internalItemName": null,
+      "category": "Network",
+      "currentStock": 2,
+      "minThreshold": 2
+    },
+    {
+      "id": 2,
+      "sku": "RB-MAK-X5",
+      "supplierBarcode": null,
+      "manufacturerItemName": "Thermal Ribbon X5",
+      "internalItemName": null,
+      "category": "Ribbon",
+      "currentStock": 49,
+      "minThreshold": 20
+    },
+    {
+      "id": 8,
+      "sku": "SW-CISCO-24PR",
+      "supplierBarcode": null,
+      "manufacturerItemName": "Cisco Switch 24 Port",
+      "internalItemName": "",
+      "category": "IT Equipment",
+      "currentStock": 3,
+      "minThreshold": 5
+    },
+    {
+      "id": 11,
+      "sku": "SW-CISCO-24Pee",
+      "supplierBarcode": null,
+      "manufacturerItemName": "Cisco Switch 24 Port",
+      "internalItemName": "",
+      "category": "IT Equipment",
+      "currentStock": 1,
+      "minThreshold": 5
+    },
+    {
+      "id": 1,
+      "sku": "TN-HP-414A",
+      "supplierBarcode": null,
+      "manufacturerItemName": "HP 414A Black Toner",
+      "internalItemName": "Toner Noir HP LaserJet",
+      "category": "Toner",
+      "currentStock": 22,
+      "minThreshold": 5
+    },
+    {
+      "id": 5,
+      "sku": "RL-MAK-T1",
+      "supplierBarcode": null,
+      "manufacturerItemName": "Thermal Rollos T1",
+      "internalItemName": null,
+      "category": "Rollos",
+      "currentStock": 93,
+      "minThreshold": 30
+    },
+    {
+      "id": 3,
+      "sku": "CAM-DH-2MP",
+      "supplierBarcode": null,
+      "manufacturerItemName": "Dahua IP Camera 2MP",
+      "internalItemName": "Camera IP 2M Dome",
+      "category": "IT Equipment",
+      "currentStock": 12,
+      "minThreshold": 3
+    }
+  ],
+  "purchaseRequestItems": [
+    {
+      "id": 2,
+      "requestId": 2,
+      "productId": 3,
+      "requestedQty": 1,
+      "expectedDeliveryDate": null,
+      "supplierName": null,
+      "unitPrice": null,
+      "status": "Received"
+    },
+    {
+      "id": 1,
+      "requestId": 1,
+      "productId": 1,
+      "requestedQty": 5,
+      "expectedDeliveryDate": null,
+      "supplierName": "HP Official",
+      "unitPrice": null,
+      "status": "Received"
+    },
+    {
+      "id": 3,
+      "requestId": 3,
+      "productId": 5,
+      "requestedQty": 13,
+      "expectedDeliveryDate": null,
+      "supplierName": null,
+      "unitPrice": null,
+      "status": "Received"
+    },
+    {
+      "id": 6,
+      "requestId": 6,
+      "productId": 3,
+      "requestedQty": 15,
+      "expectedDeliveryDate": null,
+      "supplierName": null,
+      "unitPrice": null,
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "requestId": 4,
+      "productId": 3,
+      "requestedQty": 1,
+      "expectedDeliveryDate": null,
+      "supplierName": null,
+      "unitPrice": null,
+      "status": "Received"
+    },
+    {
+      "id": 5,
+      "requestId": 5,
+      "productId": 3,
+      "requestedQty": 1,
+      "expectedDeliveryDate": null,
+      "supplierName": "manar technology",
+      "unitPrice": null,
+      "status": "Received"
+    }
+  ],
+  "purchaseRequests": [
+    {
+      "id": 1,
+      "requestQr": "REQ_1",
+      "requestedBy": null,
+      "requestDate": "2026-02-08T01:18:35.099Z",
+      "status": "Pending",
+      "notes": "Initial inventory order"
+    },
+    {
+      "id": 2,
+      "requestQr": "REQ_2",
+      "requestedBy": "Marwa",
+      "requestDate": "2026-02-09T09:28:11.268Z",
+      "status": "Pending",
+      "notes": null
+    },
+    {
+      "id": 3,
+      "requestQr": "REQ_3",
+      "requestedBy": "Mousaeb",
+      "requestDate": "2026-02-09T09:57:10.556Z",
+      "status": "Pending",
+      "notes": null
+    },
+    {
+      "id": 4,
+      "requestQr": "REQ_4",
+      "requestedBy": "outman ",
+      "requestDate": "2026-02-09T09:59:08.092Z",
+      "status": "Pending",
+      "notes": null
+    },
+    {
+      "id": 6,
+      "requestQr": "REQ_6",
+      "requestedBy": "mousab",
+      "requestDate": "2026-02-09T12:07:19.192Z",
+      "status": "Pending",
+      "notes": null
+    },
+    {
+      "id": 5,
+      "requestQr": "REQ_5",
+      "requestedBy": "marwa",
+      "requestDate": "2026-02-09T12:05:10.544Z",
+      "status": "Received",
+      "notes": null
+    }
+  ],
+  "receivingTransactions": [
+    {
+      "id": 1,
+      "purchaseRequestItemId": 2,
+      "receivedQty": 1,
+      "receivedDate": "2026-02-09T11:50:53.410Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 2,
+      "purchaseRequestItemId": 1,
+      "receivedQty": 4,
+      "receivedDate": "2026-02-09T11:54:17.956Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 3,
+      "purchaseRequestItemId": 1,
+      "receivedQty": 5,
+      "receivedDate": "2026-02-09T11:57:05.219Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 4,
+      "purchaseRequestItemId": 1,
+      "receivedQty": 5,
+      "receivedDate": "2026-02-09T11:57:23.522Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 5,
+      "purchaseRequestItemId": 3,
+      "receivedQty": 13,
+      "receivedDate": "2026-02-09T11:57:59.237Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 6,
+      "purchaseRequestItemId": 4,
+      "receivedQty": 1,
+      "receivedDate": "2026-02-09T12:00:30.688Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 7,
+      "purchaseRequestItemId": 3,
+      "receivedQty": 1,
+      "receivedDate": "2026-02-09T12:00:45.730Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 8,
+      "purchaseRequestItemId": 4,
+      "receivedQty": 1,
+      "receivedDate": "2026-02-09T12:08:04.055Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    },
+    {
+      "id": 9,
+      "purchaseRequestItemId": 5,
+      "receivedQty": 1,
+      "receivedDate": "2026-02-09T12:47:39.366Z",
+      "receivedBy": null,
+      "isDamaged": false,
+      "damageNotes": null,
+      "photoUrl": null
+    }
+  ],
+  "tonerConsumption": [
+    {
+      "id": 1,
+      "productId": 2,
+      "deptId": 2,
+      "quantity": 1,
+      "consumptionDate": "2026-02-09T09:20:44.796Z",
+      "requestedBy": null,
+      "approvedBy": null,
+      "isFlagged": false
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "deptId": 4,
+      "quantity": 2,
+      "consumptionDate": "2026-02-09T09:21:31.288Z",
+      "requestedBy": null,
+      "approvedBy": null,
+      "isFlagged": false
+    },
+    {
+      "id": 3,
+      "productId": 5,
+      "deptId": 6,
+      "quantity": 20,
+      "consumptionDate": "2026-02-09T09:34:05.149Z",
+      "requestedBy": null,
+      "approvedBy": null,
+      "isFlagged": false
+    },
+    {
+      "id": 4,
+      "productId": 5,
+      "deptId": 7,
+      "quantity": 1,
+      "consumptionDate": "2026-02-09T10:02:49.267Z",
+      "requestedBy": null,
+      "approvedBy": null,
+      "isFlagged": false
+    }
+  ],
+  "transactionHistory": [
+    {
+      "id": 1,
+      "productId": 2,
+      "deptId": 2,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "OUT",
+      "reasonCode": "Regular Use",
+      "transDate": "2026-02-09T09:20:44.796Z",
+      "referenceRequestId": null
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "deptId": 4,
+      "userId": null,
+      "quantity": 2,
+      "transactionType": "OUT",
+      "reasonCode": "Regular Use",
+      "transDate": "2026-02-09T09:21:31.288Z",
+      "referenceRequestId": null
+    },
+    {
+      "id": 3,
+      "productId": 5,
+      "deptId": 6,
+      "userId": null,
+      "quantity": 20,
+      "transactionType": "OUT",
+      "reasonCode": "Regular Use",
+      "transDate": "2026-02-09T09:34:05.149Z",
+      "referenceRequestId": null
+    },
+    {
+      "id": 4,
+      "productId": 5,
+      "deptId": 7,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "OUT",
+      "reasonCode": "Regular Use",
+      "transDate": "2026-02-09T10:02:49.267Z",
+      "referenceRequestId": null
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "deptId": null,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T11:50:53.410Z",
+      "referenceRequestId": 2
+    },
+    {
+      "id": 6,
+      "productId": 1,
+      "deptId": null,
+      "userId": null,
+      "quantity": 4,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T11:54:17.956Z",
+      "referenceRequestId": 1
+    },
+    {
+      "id": 7,
+      "productId": 1,
+      "deptId": null,
+      "userId": null,
+      "quantity": 5,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T11:57:05.219Z",
+      "referenceRequestId": 1
+    },
+    {
+      "id": 8,
+      "productId": 1,
+      "deptId": null,
+      "userId": null,
+      "quantity": 5,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T11:57:23.522Z",
+      "referenceRequestId": 1
+    },
+    {
+      "id": 9,
+      "productId": 5,
+      "deptId": null,
+      "userId": null,
+      "quantity": 13,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T11:57:59.237Z",
+      "referenceRequestId": 3
+    },
+    {
+      "id": 10,
+      "productId": 3,
+      "deptId": null,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T12:00:30.688Z",
+      "referenceRequestId": 4
+    },
+    {
+      "id": 11,
+      "productId": 5,
+      "deptId": null,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T12:00:45.730Z",
+      "referenceRequestId": 3
+    },
+    {
+      "id": 12,
+      "productId": 3,
+      "deptId": null,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T12:08:04.055Z",
+      "referenceRequestId": 4
+    },
+    {
+      "id": 13,
+      "productId": 3,
+      "deptId": null,
+      "userId": null,
+      "quantity": 1,
+      "transactionType": "IN",
+      "reasonCode": null,
+      "transDate": "2026-02-09T12:47:39.366Z",
+      "referenceRequestId": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "Benamti Otman",
+      "email": "b.otman@tintcolor2010.com",
+      "passwordHash": "$2b$10$QoFl3ma1Jncyk.I6epStQ.GSxXjJm2Rz3EJYVg4gL1DJDGsWUP196",
+      "role": "Admin",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2026-02-09T10:51:50.467Z"
+    },
+    {
+      "id": 3,
+      "name": "Akhazzan Mossaab",
+      "email": "i.mosaab@tintcolor2010.com",
+      "passwordHash": "$2b$10$QoFl3ma1Jncyk.I6epStQ.GSxXjJm2Rz3EJYVg4gL1DJDGsWUP196",
+      "role": "Admin",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2026-02-09T10:51:50.472Z"
+    },
+    {
+      "id": 4,
+      "name": "Xevi",
+      "email": "xevim@hallotex.com",
+      "passwordHash": "$2b$10$QoFl3ma1Jncyk.I6epStQ.GSxXjJm2Rz3EJYVg4gL1DJDGsWUP196",
+      "role": "Admin",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2026-02-09T10:51:50.478Z"
+    },
+    {
+      "id": 5,
+      "name": "Zineb Aktaou",
+      "email": "zineb@tintcolor2010.com",
+      "passwordHash": "$2b$10$QoFl3ma1Jncyk.I6epStQ.GSxXjJm2Rz3EJYVg4gL1DJDGsWUP196",
+      "role": "Admin",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2026-02-09T10:51:50.481Z"
+    },
+    {
+      "id": 1,
+      "name": "Marwa Mazini",
+      "email": "marwa6mzi@gmail.com",
+      "passwordHash": "$2b$10$QoFl3ma1Jncyk.I6epStQ.GSxXjJm2Rz3EJYVg4gL1DJDGsWUP196",
+      "role": "Admin",
+      "isActive": true,
+      "lastLogin": "2026-02-09T12:46:45.446Z",
+      "createdAt": "2026-02-09T10:51:50.426Z"
+    }
+  ]
+}
